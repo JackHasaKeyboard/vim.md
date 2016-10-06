@@ -11,11 +11,11 @@
 | Z         | Z     | Saveand quit                   | 
 | Z         | Q     | Quit                           | 
 
-|   |   |   |                    |
-|---|---|---|--------------------|
-| z | = |   | Suggest spelling   |
-| z | g |   | Add to dict        |
-| z | u | g | Undo add to dict   |
+|   |   |   |                  |
+|---|---|---|------------------|
+| z | = |   | Suggest spelling |
+| z | g |   | Add to dict      |
+| z | u | g | Undo add to dict |
 
 |   |      |   |                |
 |---|------|---|----------------|
@@ -23,51 +23,51 @@
 | g | Ctrl | g | Word count     |
 
 ### Navigation
-|      |        |                                                                                                                         |
-|------|--------|-------------------------------------------------------------------------------------------------------------------------|
-| h    |        | Move cursor left                                                                                                        |
-| j    |        | Move cursor down                                                                                                        |
-| k    |        | Move cursor up                                                                                                          |
-| l    |        | Move cursor right                                                                                                       |
-| w    |        | Move forwards to the start of a word                                                                                    |
-| W    |        | Move forwards to the start of a word (not excluding punctuation)                                                        |
-| e    |        | Move forwards to the end of a word                                                                                      |
-| E    |        | Move forwards to the end of a word (not excluding punctuation)                                                          |
-| b    |        | Move backwards to the start of a word                                                                                   |
-| B    |        | Move backwards to the start of a word (not excluding punctuation)                                                       |
-| n    |        | Next occurence of search                                                                                                |
-| N    |        | Previous occurence of search                                                                                            |
-| *    |        | Next occurence of word under cursor                                                                                     |
-| #    |        | Previous occurence of word under cursor                                                                                 |
-| }    |        | Move to next paragraph/function block                                                                                   |
-| {    |        | Move to previous paragraph/function block                                                                               |
-| f    | [char] | Move to the next char on the current line after the cursor                                                              |
-| F    | [char] | Move to the next char on the current line before the cursor                                                             |
-| t    | [char] | Move to before the next char on the current line after the cursor                                                       |
-| T    | [char] | Move to before the previous char on the current line after the cursor                                                   |
-| %    |        | Move to matching parenthesis |
-| ^    |        | Move to the first non-blank character of line                                                                           |
-| $    |        | Move to line end                                                                                                        |
-| 0    |        | Move to line start                                                                                                      |
-| [ | [ |  Move to function start |
-| [ | { |  Move to block start |
-| g    | _      | jump to the last non-blank character of the line                                                                        |
-| g    | g      | Go to the first line of the document                                                                                    |
-| G    |        | Go to the last line of the document                                                                                     |
-| [no] | G      | Go to line |
-| [no] | \|     | Go to column |
-| z | z | Move window to top of cursor    |
-| z | t | Move window to center of cursor |
-| z | b | Move window to bottom of cursor |
+|      |        |                                                                         |
+|------|--------|-------------------------------------------------------------------------|
+| h    |        | Move cursor left                                                        |
+| j    |        | Move cursor down                                                        |
+| k    |        | Move cursor up                                                          |
+| l    |        | Move cursor right                                                       |
+| w    |        | Move forwards to the start of a word                                    |
+| W    |        | Move forwards to the start of a word (not excluding punctuation)        |
+| e    |        | Move forwards to the end of a word                                      |
+| E    |        | Move forwards to the end of a word (not excluding punctuation)          |
+| b    |        | Move backwards to the start of a word                                   |
+| B    |        | Move backwards to the start of a word (not excluding punctuation)       |
+| n    |        | Next occurence of search                                                |
+| N    |        | Previous occurence of search                                            |
+| *    |        | Next occurence of word under cursor                                     |
+| #    |        | Previous occurence of word under cursor                                 |
+| }    |        | Move to next paragraph/function block                                   |
+| {    |        | Move to previous paragraph/function block                               |
+| f    | [char] | Move to the next char on the current line after the cursor              |
+| F    | [char] | Move to the next char on the current line before the cursor             |
+| t    | [char] | Move to before the next char on the current line after the cursor       |
+| T    | [char] | Move to before the previous char on the current line after the cursor   |
+| %    |        | Move to matching parenthesis                                            |
+| ^    |        | Move to the first non-blank character of line                           |
+| $    |        | Move to line end                                                        |
+| 0    |        | Move to line start                                                      |
+| [    | [      |  Move to function start                                                 |
+| [    | {      |  Move to block start                                                    |
+| g    | _      | jump to the last non-blank character of the line                        |
+| g    | g      | Go to the first line of the document                                    |
+| G    |        | Go to the last line of the document                                     |
+| [no] | G      | Go to line                                                              |
+| [no] | \|     | Go to column                                                            |
+| z    | z      | Move window to top of cursor                                            |
+| z    | t      | Move window to center of cursor                                         |
+| z    | b      | Move window to bottom of cursor                                                                                         |
 
-|      |        |                         |
-|------|--------|-------------------------|
-| Ctrl | b      | Scroll down a page      |
-| Ctrl | f      | Scroll up a page        |
-| Ctrl | d      | Scroll down half a page |
-| Ctrl | u      | Scroll up half a page   |
-| Ctrl | y      | Scroll down a line      |
-| Ctrl | e      | Scroll up a line        |
+|      |   |                         |
+|------|---|-------------------------|
+| Ctrl | b | Scroll down a page      |
+| Ctrl | f | Scroll up a page        |
+| Ctrl | d | Scroll down half a page |
+| Ctrl | u | Scroll up half a page   |
+| Ctrl | y | Scroll down a line      |
+| Ctrl | e | Scroll up a line        |
 
 `<no>` Go to line no
 
@@ -100,11 +100,11 @@
 | c      |        |        | Change                                              |
 | y      |        |        | Yank                                                |
 | v      |        |        | View                                                |
-|        | i      |        | In (discluding surrounding characters)                                                 |
-|        | i      |        | Around (including surrounding characters)                                              |
+|        | i      |        | In (discluding surrounding characters)              |
+|        | i      |        | Around (including surrounding characters)           |
 |        | t      |        | 'Til (discluding character)                         |
 |        | f      |        | Find (including character)                          |
-|        | g      |        | Line number                                                  |
+|        | g      |        | Line number                                         |
 |        |        | w      | Word                                                |
 |        |        | W      | Word (including punctuation and special characters) |
 |        |        | s      | Sentence                                            |
@@ -193,70 +193,72 @@
 `a`      Append on the end to apply to all buffers
 `o`      Open
 
-w,
-,q
+|   |   |       | 
+|---|---|-------| 
+| w |   | Write | 
+|   | q | Quit  | 
 
-|      |   |                                                      |
-|------|---|------------------------------------------------------|
-| Ctrl | g | Show file info                                       |
+|      |   |                |
+|------|---|----------------|
+| Ctrl | g | Show file info |
 
-|               |     |      |                                                                    | 
-|---------------|-----|------|--------------------------------------------------------------------| 
-| `[no]`        |     |      | Execute on line number                                             | 
-| `[no],[no]`    |     |      | Execute on range of line numbers                                   | 
-| `.`           |     |      | The current line                                                   | 
-| `$`           |     |      | The last line in the file                                          | 
-| `%`           |     |      | The whole file. The same as 1,$                                     | 
-| `'t`          |     |      | Position of mark "t"                                               | 
-| `/pattern[/]` |     |      | The next line where text "pattern" matches.                        | 
-| `?pattern[?]` |     |      | The previous line where text "pattern" matches                     | 
-| `\/`          |     |      | The next line where the previously used search pattern matches     | 
-| `\?`          |     |      | The previous line where the previously used search pattern matches | 
-| `\&`          |     |      | The next line where the previously used substitute pattern match   | 
-|               | `s` |      | Substitute                                                         | 
-|               | `g` |      | Go to lines                                                                 | 
-|               |     | `.`  | Any character except new line                                      | 
-|               |     | `\s` | Whitespace character                                               | 
-|               |     | `\S` | Non-whitespace character                                           | 
-|               |     | `\d` | Digit                                                              | 
-|               |     | `\D` | Non-digit                                                          | 
-|               |     | `\x` | Hex digit                                                          | 
-|               |     | `\X` | Non-hex digit                                                      | 
-|               |     | `\o` | Octal digit                                                        | 
-|               |     | `\O` | Non-octal digit                                                    | 
-|               |     | `\h` | Head of word character                                             | 
-|               |     | `\H` | Non-head of word character                                         | 
-|               |     | `\p` | Printable character                                                | 
-|               |     | `\P` | Like \p but excluding digits                                       | 
-|               |     | `\w` | Word character                                                     | 
-|               |     | `\W` | Non-word character                                                 | 
-|               |     | `\a` | Alphabetic character                                               | 
-|               |     | `\A` | Non-alphabetic character                                           | 
-|               |     | `\l` | Lowercase character                                                | 
-|               |     | `\L` | Non-lowercase character                                            | 
-|               |     | `\u` | Uppercase character                                                | 
-|               |     | `\U` | Non-uppercase character                                            | 
-|               |     | `.`  | Any character except new line                                      | 
-|               |     | `\s` | Whitespace character                                               | 
-|               |     | `\S` | Non-whitespace character                                           | 
-|               |     | `\d` | Digit                                                              | 
-|               |     | `\D` | Non-digit                                                          | 
-|               |     | `\x` | Hex digit                                                          | 
-|               |     | `\X` | Non-hex digit                                                      | 
-|               |     | `\o` | Octal digit                                                        | 
-|               |     | `\O` | Non-octal digit                                                    | 
-|               |     | `\h` | Head of word character                                             | 
-|               |     | `\H` | Non-head of word character                                         | 
-|               |     | `\p` | Printable character                                                | 
-|               |     | `\P` | Like \p but excluding digits                                       | 
-|               |     | `\w` | Word character                                                     | 
-|               |     | `\W` | Non-word character                                                 | 
-|               |     | `\a` | Alphabetic character                                               | 
-|               |     | `\A` | Non-alphabetic character                                           | 
-|               |     | `\l` | Lowercase character                                                | 
-|               |     | `\L` | Non-lowercase character                                            | 
-|               |     | `\u` | Uppercase character                                                | 
-|               |     | `\U` | Non-uppercase character                                            | 
+|               |     |           |                                                                    | 
+|---------------|-----|-----------|--------------------------------------------------------------------| 
+| `[no]`        |     |           | Execute on line number                                             | 
+| `[no],[no]`   |     |           | Execute on range of line numbers                                   | 
+| `.`           |     |           | The current line                                                   | 
+| `$`           |     |           | The last line in the file                                          | 
+| `%`           |     |           | The whole file. The same as 1,$                                    | 
+| `'t`          |     |           | Position of mark "t"                                               | 
+| `/pattern[/]` |     |           | The next line where text "pattern" matches.                        | 
+| `?pattern[?]` |     |           | The previous line where text "pattern" matches                     | 
+| `\/`          |     |           | The next line where the previously used search pattern matches     | 
+| `\?`          |     |           | The previous line where the previously used search pattern matches | 
+| `\&`          |     |           | The next line where the previously used substitute pattern match   | 
+|               | `s` |           | Substitute                                                         | 
+|               | `g` |           | Go to lines                                                        | 
+|               |     | `.`       | Any character except new line                                      | 
+|               |     | `\s`      | Whitespace character                                               | 
+|               |     | `\S`      | Non-whitespace character                                           | 
+|               |     | `\d`      | Digit                                                              | 
+|               |     | `\D`      | Non-digit                                                          | 
+|               |     | `\x`      | Hex digit                                                          | 
+|               |     | `\X`      | Non-hex digit                                                      | 
+|               |     | `\o`      | Octal digit                                                        | 
+|               |     | `\O`      | Non-octal digit                                                    | 
+|               |     | `\h`      | Head of word character                                             | 
+|               |     | `\H`      | Non-head of word character                                         | 
+|               |     | `\p`      | Printable character                                                | 
+|               |     | `\P`      | Like \p but excluding digits                                       | 
+|               |     | `\w`      | Word character                                                     | 
+|               |     | `\W`      | Non-word character                                                 | 
+|               |     | `\a`      | Alphabetic character                                               | 
+|               |     | `\A`      | Non-alphabetic character                                           | 
+|               |     | `\l`      | Lowercase character                                                | 
+|               |     | `\L`      | Non-lowercase character                                            | 
+|               |     | `\u`      | Uppercase character                                                | 
+|               |     | `\U`      | Non-uppercase character                                            | 
+|               |     | `.`       | Any character except new line                                      | 
+|               |     | `\s`      | Whitespace character                                               | 
+|               |     | `\S`      | Non-whitespace character                                           | 
+|               |     | `\d`      | Digit                                                              | 
+|               |     | `\D`      | Non-digit                                                          | 
+|               |     | `\x`      | Hex digit                                                          | 
+|               |     | `\X`      | Non-hex digit                                                      | 
+|               |     | `\o`      | Octal digit                                                        | 
+|               |     | `\O`      | Non-octal digit                                                    | 
+|               |     | `\h`      | Head of word character                                             | 
+|               |     | `\H`      | Non-head of word character                                         | 
+|               |     | `\p`      | Printable character                                                | 
+|               |     | `\P`      | Like \p but excluding digits                                       | 
+|               |     | `\w`      | Word character                                                     | 
+|               |     | `\W`      | Non-word character                                                 | 
+|               |     | `\a`      | Alphabetic character                                               | 
+|               |     | `\A`      | Non-alphabetic character                                           | 
+|               |     | `\l`      | Lowercase character                                                | 
+|               |     | `\L`      | Non-lowercase character                                            | 
+|               |     | `\u`      | Uppercase character                                                | 
+|               |     | `\U`      | Non-uppercase character                                            | 
 |               |     | `*`       | Matches 0 or more of the preceding characters[comma] ranges or metacharacters .* matches everything including empty line | 
 |               |     | `\+`      | Matches 1 or more of the preceding characters...                                                                         | 
 |               |     | `\=`      | Matches 0 or 1 more of the preceding characters...                                                                       | 
@@ -331,21 +333,21 @@ w,
 | Ctrl | f | Open command-line buffer and history as regular file |
 
 ### Windows and splits
-|      |   |   |                           |
-|------|---|---|---------------------------|
-| Ctrl | w | w | Put cursor in next window |
-| Ctrl | w | h | Put cursor in left window |
+|      |   |   |                            |
+|------|---|---|----------------------------|
+| Ctrl | w | w | Put cursor in next window  |
+| Ctrl | w | h | Put cursor in left window  |
 | Ctrl | w | j | Put cursor in below window |
 | Ctrl | w | k | Put cursor in above window |
 | Ctrl | w | l | Put cursor in right window |
 
-|      |      |   |   |                                    |
-|------|------|---|---|------------------------------------|
-| Ctrl | w    | . |   | Gives the same size to all windows |
-| Ctrl | w    | + |   | Resize viewport                    |
-| Ctrl | w    | - |   | Resize viewport                    |
-| Ctrl | w    | = |   | Resize viewport                    |
-| Ctrl | w    | _ |   | Resize viewport                    |
+|      |      |   |   |                                       |
+|------|------|---|---|---------------------------------------|
+| Ctrl | w    | . |   | Gives the same size to all windows    |
+| Ctrl | w    | + |   | Resize viewport                       |
+| Ctrl | w    | - |   | Resize viewport                       |
+| Ctrl | w    | = |   | Resize viewport                       |
+| Ctrl | w    | _ |   | Resize viewport                       |
 | [no] | Ctrl | w | + | Add number of lines to current window |
 
 |      |   |   |                            |
